@@ -1,0 +1,3 @@
+include ':LiaoUtils'
+include ':app'
+rootProject.name = "LiaoCommonUtils"
