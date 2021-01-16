@@ -4,9 +4,8 @@ import android.content.Context
 import android.content.DialogInterface
 import androidx.appcompat.app.AlertDialog
 
-class NormalDialogUtil : DialogUtilImpl {
-
-    lateinit var mTitle: String
+object LiaoDialog: LiaoDialogImpl {
+    private var mTitle = ""
 
     override fun setDialogTitle(title: String) {
         mTitle = title
